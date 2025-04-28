@@ -27,7 +27,7 @@ Dieses Projekt realisiert ein präzises, mobiles und benutzerfreundliches Zeitme
 ## Team
 **Julian Ingo Nee**, **Max Wessels**, **Tilo Heinzmann**, **Simon Röttgers**, **Nora Sievers**
 
-Berufliches Gymnasium Technik, Jahrgang 2025
+Berufliches Gymnasium Technik, Klasse 12
 
 ---
 
