@@ -20,7 +20,7 @@ Dieses Projekt realisiert ein präzises, mobiles und benutzerfreundliches Zeitme
 
 ## Bedienung
 1. System einschalten
-2. Mit WLAN **ESP32_Station** verbinden
+2. Mit WLAN **Zeitmesssystem** verbinden
 3. Im Browser **192.168.4.1** eingeben
 4. Rundenzeiten live verfolgen
 
