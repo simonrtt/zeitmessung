@@ -12,7 +12,7 @@ const char* ap_password = "12345678";      // Passwort für den Access Point (mi
 WebServer server(80);
 
 // Pin für den Button
-const int buttonPin = 0; // GPIO-Pin für den Button
+const int buttonPin = 15; // GPIO-Pin für den Button
 bool buttonPressed = false; // Zustand des Buttons
 unsigned long startTime = 0; // Startzeit der Messung
 unsigned long lapTime = 0; // Gemessene Rundenzeit
@@ -735,12 +735,12 @@ void handleSetSelectedCell() {
 // Funktion zur Anzeige der IP-Adresse
 void showIPAddress() {
     tft.fillRect(0, 220, 320, 20, ILI9341_BLACK); // Bereich für IP-Adresse
-    tft.setCursor(10, 220);
+    tft.setCursor(10, 200);
     tft.setTextColor(ILI9341_WHITE);
     tft.setTextSize(1);
     tft.print("Verbinde zu: ");
     tft.print(ap_ssid);
-    tft.setCursor(10, 235);
+    tft.setCursor(10, 215);
     tft.print("IP: ");
     tft.print(WiFi.softAPIP());
 }
